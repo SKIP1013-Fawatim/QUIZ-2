@@ -12,7 +12,7 @@ public static void main(String[] args) {
         System.out.println("Enter the number of classes you attend:");
         classattend = sc.nextInt();
        
-        performance = ((classattend)*100)/(numclass));
+        performance = ((classattend*100)/(numclass));
         System.out.println("Your performance is "+ performance);
        
         if (performance <=75)
