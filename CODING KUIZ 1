@@ -1,0 +1,23 @@
+public class Attendance{
+public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+       
+        int numclass, classattend;
+        double performance;
+       
+        System.out.println("Enter the number of classes held:");
+        numclass = sc.nextInt();
+       
+        System.out.println("Enter the number of classes you attend:");
+        classattend = sc.nextInt();
+       
+        performance = ((classattend)*100)/(numclass));
+        System.out.println("Your performance is "+ performance);
+       
+        if (performance <=75)
+        System.out.println("Not allowed to sit in exam");
+        else
+        System.out.print("Allowed to sit in exam");
+       
+      }
+    }
